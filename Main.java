@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Interface {
+public class Main {
     public static void main(String[] args) {
         Boolean running = true;
         ArrayList<Person> mainPhoneBook = new ArrayList<>();
