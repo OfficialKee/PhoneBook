@@ -1,4 +1,4 @@
-
+package com.keetotheweb.webphonebook;
 /**
  * Address
  */
@@ -6,13 +6,13 @@
  * Address
  */
 public class Address {
-    private int house_aptNumber;
+    private String house_aptNumber;
     private String streetName;
     private String city;
     private String state;
-    private int zipCode;
+    private String zipCode;
 
-    public Address(int house_aptNumber,String streetName, String city, String state, int zipCode){
+    public Address(String house_aptNumber,String streetName, String city, String state, String zipCode){
         this.house_aptNumber = house_aptNumber;
         this.streetName = streetName;
         this.city = city;
@@ -23,11 +23,11 @@ public class Address {
     }
 
 
-    public int getHouseNumber() {
+    public String getHouseNumber() {
         return this.house_aptNumber;
     }
 
-    public void setHouse_aptNumber(int house_aptNumber) {
+    public void setHouse_aptNumber(String house_aptNumber) {
         this.house_aptNumber = house_aptNumber;
     }
 
@@ -55,11 +55,11 @@ public class Address {
         this.state = state;
     }
 
-    public int getZipCode() {
+    public String getZipCode() {
         return this.zipCode;
     }
 
-    public void setZipCode(int zipCode) {
+    public void setZipCode(String zipCode) {
         this.zipCode = zipCode;
     }
 

@@ -1,4 +1,4 @@
-
+package com.keetotheweb.webphonebook;
 import java.util.Comparator;
 
 public class ContactCompare implements Comparator<Person> {
