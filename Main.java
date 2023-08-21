@@ -279,7 +279,7 @@ public class Main {
     }
     
     public static void filterChoices(ArrayList<Person> mainPhoneBook) {
-        System.out.println("Wouldyou like to filter user by: ");
+        System.out.println("Would you like to filter user by: ");
         System.out.println("[1] name ");
         System.out.println("[2] number");
         Scanner scanner = scanner();
